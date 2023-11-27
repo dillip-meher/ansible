@@ -1,2 +1,8 @@
 ---
--hosts: all
+- hosts: all
+  become: yes
+  tasks:
+  - name: I want to install webserver on all the nodes
+    apt:
+     name: apache2
+     state: absent
