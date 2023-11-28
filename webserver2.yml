@@ -4,8 +4,8 @@
   gather_facts: yes
   tasks:
   - name: i want to install ubuntu webserver on all the nodes
-    apt:
+     apt:
       name: apache2
       state: present
-    when: ansbile_os_family=="Debian"  
+    when: ansbile_os_family =="Debian"  
 
