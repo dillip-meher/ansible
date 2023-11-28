@@ -23,6 +23,6 @@
   
   - name: I want to start redhat webserver on all the nodes
     service:
-      name: ahttpd
+      name: httpd
       state: started
-    when: ansible_os_family == "redhat"
+    when: ansible_os_family == "RedHat"
