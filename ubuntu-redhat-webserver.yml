@@ -19,7 +19,7 @@
     apt:
       name: httpd
       state: present
-    when: ansible_os_family == "Redhat"
+    when: ansible_os_family == "RedHat"
   
   - name: I want to start redhat webserver on all the nodes
     service:
