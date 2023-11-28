@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become: yes
+  gather_facts: yes
+  tasks:
+  - name: i want to install ubuntu webserver on all the nodes
+    apt:
+     name: apache2
+     state: present
+     when: ansbile_os_family== "Debian"
