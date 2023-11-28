@@ -16,7 +16,7 @@
     when: ansible_os_family == "Debian"
   
   - name: I want to install redhat webserver on all the nodes
-    apt:
+    dnf:
       name: httpd
       state: present
     when: ansible_os_family == "RedHat"
