@@ -3,6 +3,6 @@
 10.0.0.6
 
 [mywebservers.vars]
-Var01 = vars
+var01 = vars
 mywebpackonubuntu = apache2
 mywebpackonredhat = httpd
