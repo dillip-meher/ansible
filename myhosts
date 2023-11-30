@@ -11,5 +11,5 @@
 
 [mywebservers:vars]
 var01 = vars
-myubuntupack = apache2
+mywebpackonubuntu = apache2
 mywebpackonredhat = httpd
