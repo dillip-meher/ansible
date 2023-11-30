@@ -3,6 +3,28 @@
 10.0.0.6
 
 
+[myappservers]
+10.0.0.50
+10.0.0.60
+
+[mydbservers]
+10.0.0.51
+10.0.0.61
+
+
+[ubuntuservers]
+10.0.0.54
+10.0.0.64
+
+[myredhatservers]
+10.0.0.53
+10.0.0.63
+
+[mydbservers]
+10.0.0.55
+10.0.0.66
+
+
 [webservers.vars]
 var01= value
 mywebpackonubuntu= apache222
