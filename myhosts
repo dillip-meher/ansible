@@ -25,5 +25,6 @@
 10.0.0.6
 
 [webservers.vars]
+var01 = vars
 mywebpackonubuntu= apache222
 mywebpackonredhat= httpd
