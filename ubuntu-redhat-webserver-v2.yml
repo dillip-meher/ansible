@@ -5,7 +5,7 @@
   tasks:
   - name: I want to install ubuntu webserver on all the nodes
     apt:
-      name: apache2
+      name: "{mywebpackonubuntu}"
       state: present
     when: ansible_os_family == "Debian"
   
@@ -23,7 +23,7 @@
   
   - name: I want to start redhat webserver on all the nodes
     service:
-      name: "{{mywebpackonredhat}}"
+      name: httpd
       state: started
     when: ansible_os_family == "RedHat"
 
