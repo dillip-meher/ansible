@@ -1,4 +1,4 @@
 git add -A
-git commit -m "test2"
+git commit -m "testa"
 git push
-@echo off ############ End of Task ####################
+@echo off #################### End of Task ####################

@@ -11,7 +11,7 @@
   
   - name: I want to start ubuntu webserver on all the nodes
     service:
-      name: apache2
+      name: "{{mywebpackonubuntu}}"
       state: started
     when: ansible_os_family == "Debian"
   
