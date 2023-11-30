@@ -23,3 +23,7 @@
 [mydbservers]
 10.0.0.5
 10.0.0.6
+
+[webservers.vars]
+mywebpackonubuntu= apache222
+mywebpackonredhat= httpd
