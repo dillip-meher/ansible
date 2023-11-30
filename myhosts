@@ -2,7 +2,14 @@
 10.0.0.5
 10.0.0.6
 
-[mywebservers.vars]
+[myubuntuservers]
+10.0.0.5
+
+[myredhatservers]
+10.0.0.6
+
+
+[mywebservers:vars]
 var01 = vars
-mywebpackonubuntu = apache2
+myubuntupack = apache2
 mywebpackonredhat = httpd
