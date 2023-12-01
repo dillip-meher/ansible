@@ -1,7 +1,7 @@
-@echo off #################### Start of Task ####################
+@echo #################### Start of Task ####################
 
 git add -A
 git commit -m "testa"
 git push
 
-@echo off ##################### End of Task ######################
+@echo ##################### End of Task ######################
