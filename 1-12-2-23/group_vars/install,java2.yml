@@ -1,0 +1,14 @@
+---
+- hosts: mywebservers
+  become: yes
+  tasks:
+  - name: Install java on unbuntu servers
+    apt:
+      name:
+      state: present
+      when: ansible_os_family== "Debian"
+  - name: install java on redhat nodes
+    dnf:
+      name:
+      state:
+    when: ansible_os_family == "RedHat"
