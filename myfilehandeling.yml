@@ -6,6 +6,6 @@
   - name: install web server
     apt:
       name: apache2
-      state: absent
+      state: present
 
       
