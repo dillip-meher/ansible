@@ -2,6 +2,10 @@
 - hosts: 10.0.0.5
   become: yes
   tasks:
-  - including_task: myfile.yml
+  - include_task: myfile.yml
+  - name: install web server
+    apt:
+      name: apache2
+      state: present
 
       
