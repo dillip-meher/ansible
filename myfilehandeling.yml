@@ -11,5 +11,3 @@
     copy:
       src: mytestfile
       dest: /home/user01/
-
-      
