@@ -22,3 +22,5 @@
     template:
       src: myindex.j2
       dest: /var/www/html/index.html
+
+# ansible 10.0.0.5 -i hosts -m setup
