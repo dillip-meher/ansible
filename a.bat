@@ -1,7 +1,7 @@
 @echo ########################################################### Start of Task Install JAVA #############################################################
 
 git add -A
-git commit -m "Install JAVA"
+git commit -m "Debug"
 git push
 
 @echo
