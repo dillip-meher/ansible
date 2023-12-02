@@ -6,7 +6,7 @@
     command: hostname -f
     register: myfiesttaskresult
   
-  -name: I want to display 1st task result
-  debug: 
-   msg: "{{myfiesttaskresult}}"
+  - name: I want to display 1st task result
+    debug: 
+     msg: "{{myfiesttaskresult}}"
    
