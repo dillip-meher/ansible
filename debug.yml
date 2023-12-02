@@ -9,4 +9,16 @@
   - name: I want to display 1st task result
     debug: 
      msg: "{{myfiesttaskresult}}"
+
+  - name: install git
+    apt:
+      name: git
+      state: present
+    when: myfiesttaskresult.stderr !=""
+
+  - name: install git
+    apt:
+      name: tree
+      state: present
+    when: myfiesttaskresult.stderr =""  
    
