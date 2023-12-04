@@ -22,5 +22,11 @@
     template:
       src: myindex.j2
       dest: /var/www/html/index.html
+    notify: restartwebserver
 
-# ansible 10.0.0.5 -i hosts -m setup
+  handlers:
+  - name: restartwebserver
+    service: apache2
+    state: restared
+
+# ansible 10.0.0.5 -i hosts -m setup to get the configuration details of the file
