@@ -28,6 +28,6 @@
   - name: restartwebserver
     service: 
       name: apache2
-      state: restared
+      state: restarted
 
 # ansible 10.0.0.5 -i hosts -m setup to get the configuration details of the file
