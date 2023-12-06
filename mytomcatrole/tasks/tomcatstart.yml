@@ -1,7 +1,7 @@
 ---
 - name: start tomcat
   systemd:
-    state: started
+    state: present
     daemon_reload: yes
     enable: yes
     name: tomcat
