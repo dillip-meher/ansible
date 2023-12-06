@@ -7,7 +7,7 @@
 
 - name: extract tarfile
   command:
-     cmd: sudo tar xzvf
+     cmd: sudo tar xzvf /home/user01/apache-tomcat-10.0.20.tar.gz -C /opt/tomcat --strip-components=1
      creates: /opt/tomcat/LICENSE
      
 
