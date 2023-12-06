@@ -1,5 +1,4 @@
 ---
-
 - include_tasks: myadduser.yml
 - include_tasks: installjava.yml
 - include_tasks: downloadtarfile.yml 
